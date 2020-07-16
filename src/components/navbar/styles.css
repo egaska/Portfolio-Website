@@ -1,0 +1,17 @@
+body {
+  font-family: "Oxygen", serif;
+}
+
+#brandname {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+}
+#Indent {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#navlinks {
+  font-size: large;
+  margin-top: 10px;
+}
