@@ -1,17 +1,34 @@
 body {
   font-family: "Oxygen", serif;
 }
-
+/* .pure-menu{
+  height:100px;
+  background:lightcyan;
+} */
 #brandname {
   font-family: "Playfair Display", serif;
   font-size: 45px;
 }
 #Indent {
   margin-left: 40px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #navlinks {
   font-size: large;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+
+.navbar{
+  width: 100%;
+  align-items: center;
+  background-color: #eee;
+  transition: all .7s ease-in;
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
 }

@@ -16,3 +16,26 @@
     font-family: "Playfair Display", serif;
     font-size: 40px;
   }
+
+  #Contact{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+  }
+
+  a{
+    color: grey;
+    text-decoration: none;
+  }
+  .content{
+    width: 80%;
+    margin:2rem 10% 0 10%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.box{
+    width:80%;
+    margin:2rem 10% 0 10%;
+    height:100vh;
+    background-color:plum;
+}
