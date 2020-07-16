@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import div from "../assets/div.png"
 
 function Portfolio() {
   return (
@@ -7,6 +8,7 @@ function Portfolio() {
       <div className="container pure-g aboutmeBox">
         <h1 className="pure-u-1" id="Title">
           Portfolio
+    <hr/>
         </h1>
         
 

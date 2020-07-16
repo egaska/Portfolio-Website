@@ -1,10 +1,9 @@
 body {
   font-family: "Oxygen", serif;
 }
-/* .pure-menu{
+.pure-menu{
   height:100px;
-  background:lightcyan;
-} */
+}
 #brandname {
   font-family: "Playfair Display", serif;
   font-size: 45px;
@@ -20,6 +19,7 @@ body {
 }
 
 .navbar{
+  z-index: 99999;
   width: 100%;
   align-items: center;
   background-color: #eee;

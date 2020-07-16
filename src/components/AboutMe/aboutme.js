@@ -1,15 +1,17 @@
 import React from "react";
 import "./styles.css";
-import Portfolio from "../Portfolio/portfolio";
+import div from "../assets/div.png";
+
 
 function AboutMe({element}) {
   return (
-    <main className="content">
+   
       <div className="container pure-g aboutmeBox">
         <div ref={element}>
           <h1 className="pure-u-1" id="Title">
             About Me
-          </h1>
+          <hr/>
+           </h1>
           <div className="pure-u-lg-1-5 pure-u-md-1 pure-u-sm-1" />
           <img
             src="https://via.placeholder.com/250"
@@ -37,9 +39,9 @@ function AboutMe({element}) {
           </div>
           <div className="pure-u-lg-1-5 pure-u-md-1 pure-u-sm-1" />
         </div>
-      <Portfolio/>
+    
       </div>
-    </main>
+ 
   
   );
 }
