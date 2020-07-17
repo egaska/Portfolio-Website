@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Emily from "../assets/Emily.jpg";
 
 function AboutMe({}) {
   return (
@@ -10,7 +11,7 @@ function AboutMe({}) {
         </h1>
         <div className="pure-u-lg-1-5 pure-u-md-1 pure-u-sm-1" />
         <img
-          src="https://via.placeholder.com/250"
+          src={Emily}
           className="pure-u-lg-1-5 pure-u-md-1-3 pure-u-sm-1 pure-img imgAbout"
           alt="Avatar"
         />
