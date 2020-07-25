@@ -1,5 +1,17 @@
+
+@media only screen and (max-width: 600px) {
+
+  #navlinks  {
+    visibility: hidden;
+  }
+  body {
+    font-size: 2vw;
+  }
+}
+
 body {
   font-family: "Oxygen", serif;
+  font-size: 1.25vw;
 }
 .pure-menu{
   height:100px;
@@ -15,7 +27,7 @@ body {
 
 #navlinks {
   font-size: large;
-  margin-top: 30px;
+  margin-top: 2vw;
   text-align: center;
 }
 

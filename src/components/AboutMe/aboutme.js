@@ -9,13 +9,12 @@ function AboutMe({}) {
           About Me
           <hr />
         </h1>
-        <div className="pure-u-lg-1-5 pure-u-md-1 pure-u-sm-1" />
         <img
           src={Emily}
-          className="pure-u-lg-1-5 pure-u-md-1-3 pure-u-sm-1 pure-img imgAbout"
-          alt="Avatar"
+          className="pure-u-1  pure-img imgAbout"
+          alt="Emily"
         />
-        <div className="pure-u-lg-2-5 pure-u-md-1-3 pure-u-sm-1" id="maindiv">
+        <div className="pure-u-1" id="maindiv">
           <p>
             <br/>
           Full-Stack web developer, experienced in
@@ -36,7 +35,7 @@ function AboutMe({}) {
             |<a href="https://github.com/egaska">&nbsp;&nbsp;GitHub</a>
           </p>
         </div>
-        <div className="pure-u-lg-1-5 pure-u-md-1 pure-u-sm-1" />
+      
       </div>
 
   );

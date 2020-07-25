@@ -1,53 +1,46 @@
-.aboutmeBox{
-    padding-top: 50px;
-    padding-bottom: 150px;
-    text-align: center;
 
+@media only screen and (max-width: 600px) {
+
+  #maindiv {
+    margin-left: 10em;
+    margin-right: 10em;
+    line-height: 2vw;
+  }
 }
-#maindiv{
-    padding: 40px 0;
-    line-height: 25px;
-
+.aboutmeBox {
+  padding-top: 50px;
+  padding-bottom: 2vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#maindiv {
+  margin-left: 10em;
+  margin-right: 10em;
+  line-height: 2vw;
 }
 .imgAbout {
-    border-radius: 50%;
-    max-width: 50%
-  }
-
-  #Title{
-    font-family: "Playfair Display", serif;
-    font-size: 40px;
-  }
-
-  #Contact{
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-  }
-
-  a{
-    color: grey;
-    text-decoration: none;
-  }
-  .content{
-    width: 80%;
-    margin:2rem 10% 0 10%;
-    max-width: 100%;
-    box-sizing: border-box;
-    min-height: 100vh;
+  border-radius: 50%;
+  max-width: 20%;
 }
-.box{
-    width:80%;
-    margin:2rem 10% 0 10%;
-    height:100vh;
-    background-color:plum;
-}
-.line{
-  width: 112px;
-  height: 47px;
-  border-bottom: 1px solid black;
-  }
 
-hr{
+#Title {
+  font-family: "Playfair Display", serif;
+  font-size: 3vw;
+}
+
+#Contact {
+  font-family: "Playfair Display", serif;
+  font-size: 2vw;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+
+hr {
   width: 100px;
   background-color: gray;
 }
